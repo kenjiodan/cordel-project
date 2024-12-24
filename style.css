@@ -39,21 +39,26 @@ a:hover {
     text-decoration: underline;
 }
 
-main p {
+section p {
     font-size: 3.5vw;
     line-height: 7vw;
     font-family: "Sriracha", cursive;
-    margin-bottom: 10vw;
-
     
 }
 
 .padrão {
-    margin: 10vw 0px 11vw 4vw;
+    padding: 20px 0px 20px 5px;
+    padding: 4vw 1vw 2vw 5vw;
 }
+
+section#espaço {
+    padding-bottom: 8vw;    
+} 
 
 #especial1 {
     background-image: url(imagens/background001.jpg);
+    max-height: 80vw;
+    box-shadow: inset 0px 5px 12px 0px #00000080;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -80,6 +85,8 @@ main p {
 
 #especial2 {
     background-image: url(imagens/background002.jpg);
+    max-height: 80vw;
+    box-shadow: inset 0px 5px 12px 0px #00000080;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
